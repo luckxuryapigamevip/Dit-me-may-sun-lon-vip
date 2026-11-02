@@ -1,0 +1,29 @@
+{
+  "name": "sunwin-ai-ultra",
+  "version": "5.0.0",
+  "description": "HOANG GAME NEW Sunwin AI Ultra v5.0 - 120 algorithms + 20 AI engines for Tai Xiu prediction",
+  "type": "module",
+  "main": "sunwinvip.py",
+  "scripts": {
+    "start": "node sunwinvip.py",
+    "dev": "node --watch sunwinvip.py"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "fastify": "^4.28.1",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "taixiu",
+    "sunwin",
+    "ai",
+    "prediction",
+    "websocket",
+    "fastify"
+  ],
+  "author": "HOANG GAME NEW",
+  "license": "MIT"
+}
