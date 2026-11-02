@@ -868,7 +868,7 @@ app.get("/api/taixiu/sunwin", async (request, reply) => {
 
         if (!lastResult) {
             return {
-                id: "HOANG GAME NEW Sunwin AI",
+                id: "GiaThinhzZz Sunwin AI",
                 status: "đang chờ dữ liệu phiên đầu tiên...",
                 phien_truoc: null,
                 tong: null,
@@ -882,7 +882,7 @@ app.get("/api/taixiu/sunwin", async (request, reply) => {
         }
 
         return {
-            id: "HOANG GAME NEW Sunwin AI",
+            id: "GiaThinhzZz Sunwin AI",
             phien_truoc: lastResult.session,
             xuc_xac: lastResult.dice,
             tong: lastResult.total,
@@ -948,7 +948,7 @@ app.get("/api/taixiu/ai-stats", async () => {
 app.get("/", async () => { 
     return {
         status: "online",
-        name: "HOANG GAME NEW Sunwin AI",
+        name: "GiaThinhzZz Sunwin AI",
         version: "9.0 - Ultra Pattern Recognition & Quantum AI",
         description: "Hệ thống AI dự đoán với 100+ mẫu cầu và học máy nâng cao",
         algorithms_count: ALGORITHMS.length,
@@ -971,7 +971,7 @@ const start = async () => {
             host: "0.0.0.0"
         });
         console.log(`\n==============================================`);
-        console.log(`🚀 HOANG GAME NEW Sunwin AI ULTRA Server`);
+        console.log(`🚀 GiaThinhzZz Sunwin AI ULTRA Server`);
         console.log(`==============================================`);
         console.log(`   Port: ${PORT}`);
         console.log(`   Thuật toán: ${ALGORITHMS.length} AI Algorithms`);
