@@ -1,18 +1,15 @@
 {
-  "name": "sunwin-ai",
-  "version": "5.0.0",
-  "description": "AI Tai Xiu",
+  "name": "sunwin-ai-bot",
+  "version": "1.0.0",
+  "description": "Advanced AI for Tai Xiu prediction.",
   "type": "module",
-  "main": "server.js",
+  "main": "sunwin.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node sunwin.js"
   },
   "dependencies": {
-    "@fastify/cors": "^9.0.1",
-    "fastify": "^4.28.1",
-    "ws": "^8.18.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "fastify": "^4.x.x",
+    "@fastify/cors": "^8.x.x",
+    "ws": "^8.x.x"
   }
 }
